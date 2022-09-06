@@ -22,3 +22,15 @@ button{
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
 }
+
+#text {
+    margin: 5px 0px 10px 18px;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    }
