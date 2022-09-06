@@ -1,3 +1,4 @@
-let userName = prompt("Enter your name:");
-alert("Your name is: " + userName);
-
+let btnTranslate = document.querySelector("#btn-translate");
+console.log(btnTranslate);
+btnTranslate.innerHTML = "divik";
+btnTranslate.style.backgroundColor = "red";
