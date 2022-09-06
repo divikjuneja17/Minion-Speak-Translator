@@ -1,13 +1,13 @@
 let btnTranslate = document.querySelector("#btn-translate");
+let txtInput = document.querySelector("#textarea-input");
+let txtOutput = document.querySelector("#textarea-output");
 
-//1st way of addEventListener
-// btnTranslate.addEventListener("click", function clickHandler(){
-//     console.log("Clicked");
-// })
 
-//2nd way of addEventListener
-btnTranslate.addEventListener("click", clickHandler);
+
 
 function clickHandler(){
-    console.log("clicked");
+    console.log(txtInput.value);
 ;}
+
+btnTranslate.addEventListener("click", clickHandler); //clickHandler is a callback here because function addEventListener() takes an input or argument as an another function.
+
