@@ -1,4 +1,13 @@
 let btnTranslate = document.querySelector("#btn-translate");
-console.log(btnTranslate);
-btnTranslate.innerHTML = "divik";
-btnTranslate.style.backgroundColor = "red";
+
+//1st way of addEventListener
+// btnTranslate.addEventListener("click", function clickHandler(){
+//     console.log("Clicked");
+// })
+
+//2nd way of addEventListener
+btnTranslate.addEventListener("click", clickHandler);
+
+function clickHandler(){
+    console.log("clicked");
+;}
