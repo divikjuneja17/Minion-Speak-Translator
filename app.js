@@ -17,7 +17,7 @@ function clickHandler(){
     fetch(getTranslatedURL())
     .then(response => response.json())
     .then(json => txtOutput.innerText = json.contents.translated)
-    .catch(errorHandler(error))
+    .catch(errorHandler) //passing errorHandler function as an argument to .catch(). errorHandler function is a callback.
 ;}
 
 function clear(){
