@@ -83,7 +83,6 @@ button{
     margin-top: 1vh;
     font-weight: 800;
     font-size: 1.5rem;
-    letter-spacing: 2px;
 }
 
 #footer p{
@@ -95,7 +94,7 @@ button{
 
 @media screen and (max-width: 576px) {
     #nav-heading{
-        margin-bottom: 12px;
+        padding-bottom: 12px;
     }
 
     #footer p{
