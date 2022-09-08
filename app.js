@@ -4,6 +4,10 @@ let txtOutput = document.querySelector("#output");
 let btnClear = document.querySelector("#btn-clear");
 let serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
+function errorHandler(error){
+ alert("Something wrong with server! Try again after some time.");
+ console.log(error);
+}
 
 function getTranslatedURL(){
     return serverURL + "?" + "text=" + txtInput.value;
@@ -12,7 +16,8 @@ function getTranslatedURL(){
 function clickHandler(){
     fetch(getTranslatedURL())
     .then(response => response.json())
-    .then(json => txtOutput.innerText = json.contents.translated);
+    .then(json => txtOutput.innerText = json.contents.translated)
+    .catch(errorHandler(error))
 ;}
 
 function clear(){
