@@ -95,7 +95,7 @@ button{
 
 @media screen and (max-width: 576px) {
     #nav-heading{
-        padding-bottom: 12px;
+        padding-bottom: 16px;
     }
 
     #navBar {
