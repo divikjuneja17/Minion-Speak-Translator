@@ -93,7 +93,7 @@ button{
     letter-spacing: 2px;
 }
 
-#hero-image{
+#header{
     text-align: center;
 }
 
@@ -107,11 +107,17 @@ button{
     }
 
     #footer p{
-        font-size: 0.5rem;
-        letter-spacing: 1.5px;
+        margin: 0;
+        letter-spacing: 1px;
+        max-width: 100%;
+        font-size: 0.9rem;
     }
 
     #input{
         font-size: 0.9rem;
+    }
+
+    #hero-image{
+        width: 80%;
     }
 }
