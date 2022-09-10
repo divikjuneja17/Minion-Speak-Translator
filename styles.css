@@ -15,7 +15,7 @@ body{
     margin-right: auto; /* center a textarea */
     width: 60%;
     height: 10vh;
-    margin-top: 9.5rem;
+    margin-top: 5rem;
     margin-bottom: 1rem;
     padding: 1rem;
     font-size: 1.3rem;
@@ -73,7 +73,7 @@ button{
 }
 
 #footer{
-    margin-top: 8.8rem;
+    margin-top: 5rem;
     width: 100%;
     background-color: var(--primary-color);
     line-height: 4vh;
@@ -91,6 +91,10 @@ button{
     margin: auto;
     font-size: 1.1rem;
     letter-spacing: 2px;
+}
+
+#hero-image{
+    text-align: center;
 }
 
 @media screen and (max-width: 576px) {
