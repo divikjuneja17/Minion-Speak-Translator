@@ -73,7 +73,7 @@ button{
 }
 
 #footer{
-    margin-top: 5rem;
+    margin-top: 13.4rem;
     width: 100%;
     background-color: var(--primary-color);
     line-height: 4vh;
@@ -87,7 +87,7 @@ button{
 }
 
 #footer p{
-    max-width: 80%;
+    max-width: 60%;
     margin: auto;
     font-size: 1.1rem;
     letter-spacing: 2px;
@@ -106,5 +106,9 @@ button{
         font-size: 0.5rem;
         letter-spacing: 1.5px;
         width: 90%;
+    }
+
+    #input{
+        font-size: 0.9rem;
     }
 }
